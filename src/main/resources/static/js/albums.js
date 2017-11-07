@@ -39,7 +39,7 @@ function AlbumsController($scope, $modal, Albums, Album, Status) {
     function saveAlbum(album) {
         Albums.save(album,
             function () {
-                Status.success("Album saved");
+                Status.success("Album saved by Gerry line 42");
                 list();
             },
             function (result) {
@@ -147,7 +147,7 @@ function AlbumEditorController($scope, Albums, Status, EditorStatus) {
 
         Albums.save({}, album,
             function () {
-                Status.success("Album saved");
+                Status.success("Album saved by Gerry line 150");
                 list();
             },
             function (result) {
