@@ -39,7 +39,7 @@ function AlbumsController($scope, $modal, Albums, Album, Status) {
     function saveAlbum(album) {
         Albums.save(album,
             function () {
-                Status.success("Album saved by Gerry line 42 in Documents GitHub spring-music"");
+                Status.success("Album saved by Gerry again! line 42 in Documents GitHub spring-music");
                 list();
             },
             function (result) {
